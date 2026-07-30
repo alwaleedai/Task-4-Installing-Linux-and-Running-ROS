@@ -90,11 +90,11 @@ ros2 run demo_nodes_cpp listener
 Messages being exchanged between the two windows confirms ROS is working correctly.
 
 **Talker output:**
-https://github.com/alwaleedai/Task-4-Installing-Linux-and-Running-ROS/blob/main/talker_output.png
+
 
 **Listener output (receiving messages from the talker):**
 
-https://github.com/alwaleedai/Task-4-Installing-Linux-and-Running-ROS/blob/main/listener_output.png
+
 
 As shown above, the listener correctly received and printed the messages published by the talker (`I heard: [Hello World: 84]`, `85`, `86`...), confirming that node-to-node communication in ROS2 is fully functional.
 
