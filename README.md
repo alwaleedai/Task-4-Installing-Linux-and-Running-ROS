@@ -91,9 +91,11 @@ Messages being exchanged between the two windows confirms ROS is working correct
 
 **Talker output:**
 
+![Talker running successfully](screenshots/talker_output.png)
 
 **Listener output (receiving messages from the talker):**
 
+![Talker running successfully](screenshots/listener_output.png)
 
 
 As shown above, the listener correctly received and printed the messages published by the talker (`I heard: [Hello World: 84]`, `85`, `86`...), confirming that node-to-node communication in ROS2 is fully functional.
